@@ -1,0 +1,12 @@
+{
+  "name": "container-spike",
+  "version": "0.0.1",
+  "description": "Attempt to launch a docker image from an Azure Function",
+  "main": "index.js",
+  "author": "Rob Miller",
+  "dependencies": {
+    "azure-arm-containerinstance": "^1.2.0-preview",
+    "azure-arm-containerregistry": "^2.4.0",
+    "ms-rest-azure": "^2.5.7"
+  }
+}
